@@ -148,15 +148,14 @@ li
     height: 50px ;
     float: left;
 }
-#random
+.pageContainer
 {
+    width: 100%;
+    height: 385px;
     overflow: hidden;
-    width: 100%;
-    height: 385px;
+    position: relative;
 }
-#random div
+.containerbox
 {
-    width: 100%;
-    height: 385px;
+    float: left;
 }
-
