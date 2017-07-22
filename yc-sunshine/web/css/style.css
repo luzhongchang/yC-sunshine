@@ -159,3 +159,158 @@ li
 {
     float: left;
 }
+
+.elementor-widget-container
+{
+    width: 90%;
+    height: 52px;
+    margin: auto;
+    position: inherit;
+
+}
+.left-line
+{
+    height: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    min-width: 200px;
+    width:25%;
+    float: left;
+    display: inline;
+
+}
+.right-line
+{
+
+    height: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width:25%;
+    min-width: 200px;
+    float: right;
+    display: inline;
+
+}
+.colorline
+{
+
+    background: #cccccc;
+
+}
+.middle-content
+{
+    float:left;
+    width: 30%;
+    min-width: 400px;
+    height: 52px;
+    margin-left:50px ;
+    margin-right: 50px;
+    display: inline;
+
+}
+.middle-content h1
+{
+    font-size: 25px;
+    color: #cccccc;
+    line-height: 52px;
+    text-align: center;
+
+}
+
+.productSection
+{
+    height: 412px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: white;
+}
+.signalproduct
+{
+    width: 265px;
+    height: 392px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background: white;
+    float: left;
+}
+
+.productimg
+{
+    width: 265px;
+    height: 265px;
+    background: white;
+
+
+}
+.productimg img
+{
+    width: 243px;
+    height: 243px;
+    position: relative;
+    left: 50%;
+    top:50%;
+    margin-left: -121.5px;
+    margin-top: -121.5px;
+    cursor: pointer;
+
+}
+
+.description_product
+{
+    width: 265px;
+    height: 143px;
+}
+.description_product h3
+{
+    width: 265px;
+    height: 30px;
+    background: white;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.description_product_a
+{
+    cursor: pointer;
+    color:  #6ec1e4;
+    font-size:22px ;
+    text-decoration: none;
+    font-family: "Roboto", Sans-serif;
+}
+.description_product_p
+{
+    width: 265px;
+    padding-left: 10px;
+    padding-top: 15px;
+    overflow: hidden;
+    font-family: "Roboto", Sans-serif;
+    color: #7a7a7a;
+    font-size: 13px;
+    line-height: 1.5;
+
+}
+
+.company_container
+{
+    width: 92%;
+    height: 332px;
+    background: #ff00ff;
+    text-align: center;
+    margin-left: 4%;
+    position: relative;
+}
+.company_description
+{
+    margin-top: 0px;
+    width:50%;
+    height: 100%;
+    background: lime;
+    float: left;
+}
+.company_picture
+{
+    width:50%;
+    height: 100%;
+    background: lightgrey;
+    float: right;
+}
