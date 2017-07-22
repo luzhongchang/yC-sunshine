@@ -361,10 +361,13 @@ li
     clear: both;
     width: 92%;
     min-height: 332px;
+    max-height: 600px;
+    overflow: hidden;
     height: auto;
     position: relative;
     margin-left: 4%;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 
 
@@ -407,7 +410,6 @@ li
     color: #7a7a7a;
     font-size: 13px;
     line-height: 1.8;
-    margin-bottom: 30px;
 }
 .company_description_cc
 {
@@ -422,4 +424,68 @@ li
     width: 100%;
     height: auto;
     margin: auto;
+}
+
+.contactUsContact
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    min-height: 352px;
+    background: #f9f9f9;
+}
+.contactUsContact_s
+{
+    width: 90%;
+    height: 352px;
+    margin: auto;
+    background: #ff00ff;
+    position: relative;
+
+}
+
+.contactUsContact_s_l
+{
+    width: 50%;
+    height: 98%;
+    float: left;
+    position: relative;
+    top:2%;
+    background: greenyellow;
+}
+.contactUsContact_s_r
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    top:2%;
+    background: greenyellow;
+    background: green;
+
+}
+.contactContact
+{
+    width: 100%;
+    height: 16px;
+    line-height: 30px;
+    color:   #7a7a7a;
+}
+.contactNamebox
+{
+    width:98% ;
+    height: 40px;
+    background: white;
+    border:#eeffee solid 2px ;
+
+}
+#contactName
+{
+    width:98% ;
+    position: relative;
+    left: 2%;
+    height: 40px;
+    border: 0px ;
+    outline: none;
+    border-style: none;
 }
