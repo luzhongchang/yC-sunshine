@@ -116,8 +116,15 @@ $(document).ready(function () {
     )
 
 
-
-
+    $('.footersep ul li').hover(
+         function () {
+            $(this).css({'text-decoration': 'underline',
+                         'color':'white'});
+        },
+        function () {
+            $(this).css({'text-decoration':'none','color':'#7a7a7a'});
+        }
+    )
 });
 
 

@@ -553,3 +553,95 @@ li
     font-size: 13px;
 
 }
+.footer
+{
+    width: 100%;
+    height: auto;
+    min-height: 315px;
+    position: absolute;
+    background: black;
+}
+.footerContent
+{
+    width: 80%;
+    margin: auto;
+    background: greenyellow;
+}
+
+.footersep
+{
+    width: 270px;
+    height: 152px;
+    padding-top: 100px;
+    float: left;
+}
+.footersep h3
+{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: white;
+}
+.footersep ul li
+{
+    width: 100%;
+    height: 25px;
+    font-size: 13px;
+    color: #7a7a7a;
+}
+.underline
+{
+
+    border-bottom: 3px solid white;
+
+}
+.searchView
+{
+    width: 212.5px;
+    height: 40px;
+    border: 1px solid #7a7a7a;
+    background: white;
+}
+
+.leftspace
+{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.searchView input
+{
+    width: 90%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: none;
+    background:black;
+    outline: none;
+    color: white;
+}
+.searchView button
+{
+    float: left;
+    width: 37%;
+    height: 100%;
+    border-style: none;
+    background: none;
+}
+.copyright
+{
+
+    clear:  both;
+    color: #7a7a7a;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    margin-left: 0%;
+    margin-top: -50%;
+    top:25px;
+
+
+}
