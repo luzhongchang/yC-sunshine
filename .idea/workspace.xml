@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="500e0ba4-f141-485d-aeb3-dd55d3c2d205" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/css/style.css" afterPath="$PROJECT_DIR$/yc-sunshine/web/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/html/index.html" afterPath="$PROJECT_DIR$/yc-sunshine/web/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js" afterPath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,35 +16,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yc-sunshine/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="629" column="1" lean-forward="true" selection-start-line="629" selection-start-column="1" selection-end-line="629" selection-end-column="1" />
+            <state relative-caret-position="58">
+              <caret line="651" column="17" lean-forward="true" selection-start-line="651" selection-start-column="17" selection-end-line="651" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="77" column="12" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yc-sunshine/web/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="258" column="10" lean-forward="true" selection-start-line="258" selection-start-column="10" selection-end-line="258" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,6 +86,19 @@
       <find>contactName</find>
       <find>productSection</find>
       <find>contactNamebox</find>
+      <find>loggoWrapper</find>
+      <find>overfloatTopwrapper</find>
+      <find>overfloatTopwrapper_conatiner</find>
+      <find>overfloatTopwrapper_loggoWrapper</find>
+      <find>menu-list</find>
+      <find>contai</find>
+      <find>overfloatTopwrapper_menu-main-container</find>
+      <find>searchIcon</find>
+      <find>menu_list</find>
+      <find>subMenu-dropdown</find>
+      <find>alert</find>
+      <find>menu-main-container</find>
+      <find>z-index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,9 +111,9 @@
         <option value="$PROJECT_DIR$/yc-sunshine/web/js/common/js/jquery.js" />
         <option value="$PROJECT_DIR$/yc-sunshine/web/js/common/js/jquery.slider.js" />
         <option value="$PROJECT_DIR$/yc-sunshine/web/css/jquery.slider.css" />
+        <option value="$PROJECT_DIR$/yc-sunshine/web/html/index.html" />
         <option value="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js" />
         <option value="$PROJECT_DIR$/yc-sunshine/web/css/style.css" />
-        <option value="$PROJECT_DIR$/yc-sunshine/web/html/index.html" />
       </list>
     </option>
   </component>
@@ -103,8 +124,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="108" />
-    <option name="y" value="129" />
+    <option name="x" value="226" />
+    <option name="y" value="62" />
     <option name="width" value="1430" />
     <option name="height" value="806" />
   </component>
@@ -507,7 +528,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="129" width="1430" height="806" extended-state="0" />
+    <frame x="226" y="62" width="1430" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -542,12 +563,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js</url>
-          <line>109</line>
+          <line>154</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js</url>
-          <line>92</line>
+          <line>137</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -608,41 +629,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js">
+    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/common/jquery/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="122" column="10" lean-forward="true" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+        <state relative-caret-position="209">
+          <caret line="10171" column="6" lean-forward="true" selection-start-line="10171" selection-start-column="6" selection-end-line="10171" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="629" column="1" lean-forward="true" selection-start-line="629" selection-start-column="1" selection-end-line="629" selection-end-column="1" />
+        <state relative-caret-position="144">
+          <caret line="77" column="12" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yc-sunshine/web/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="258" column="10" lean-forward="true" selection-start-line="258" selection-start-column="10" selection-end-line="258" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="651" column="17" lean-forward="true" selection-start-line="651" selection-start-column="17" selection-end-line="651" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

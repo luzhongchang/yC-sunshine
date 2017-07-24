@@ -31,9 +31,11 @@ $(document).ready(function () {
         }
         else
         {
-            // $('.subMenu-dropdown').slideUp(500);
             $('.subMenu-dropdown').fadeOut(animtionTime);
         }
+    })
+    $('.subMenu-dropdown').mouseleave(function () {
+         $('.subMenu-dropdown').fadeOut(animtionTime);
     })
     $('.menu-list').click(function () {
         index = $(this).index('.menu-list');
@@ -56,6 +58,57 @@ $(document).ready(function () {
 
 
 
+
+
+    //big nav
+
+         //默认第一tab
+    $('.float_menu-list').eq(0).css({'color':'#ff00ff'});
+    $('.float_menu-list').mouseenter(function () {
+        $(this).css({'color':'#ff00ff'});
+        $('.float_menu-list').not($(this)).css({'color': 'rgba(0, 0, 0, 0.8)'});
+        index = $(this).index('.float_menu-list');
+
+        if(index == 1)
+        {
+            // $('.subMenu-dropdown').slideDown(500);
+            $('.float_subMenu-dropdown').fadeIn(animtionTime);
+
+        }
+        else
+        {
+            // $('.subMenu-dropdown').slideUp(500);
+            $('.float_subMenu-dropdown').fadeOut(animtionTime);
+        }
+    });
+     $('.float_subMenu-dropdown').mouseleave(function () {
+         $('.float_subMenu-dropdown').fadeOut(animtionTime);
+    })
+
+
+    // $('.menu-list').click(function () {
+    //     index = $(this).index('.menu-list');
+    //     alert(index);
+    //     switch (index)
+    //     {
+    //         case NavItems.HOME:
+    //             break;
+    //         case NavItems.PRODUCTS:
+    //             break;
+    //         case NavItems.PASKNG:
+    //             break;
+    //         case NavItems.ABOUT:
+    //             break;
+    //         case NavItems.CONTACT:
+    //             break;
+    //         default:
+    //             break
+    // }})
+
+    //end bignav
+
+
+
     $(".sub-menu li").mouseenter(function () {
         $(".sub-menu li").css({'color':'#ff00ff'});
         $(".sub-menu li").not($(this)).css({'color': 'rgba(0, 0, 0, 0.8)'});
@@ -73,14 +126,6 @@ $(document).ready(function () {
 		originPosition:'center',
 	});
 
-
-    //         width: 243px;
-    // height: 243px;
-    // position: relative;
-    // left: 50%;
-    // top:50%;
-    // margin-left: -121.5px;
-    // margin-top: -121.5px;
 
     $('.productimg img').mouseenter(function () {
 
@@ -125,6 +170,20 @@ $(document).ready(function () {
             $(this).css({'text-decoration':'none','color':'#7a7a7a'});
         }
     )
+
+       //显示navi
+    $(".overfloatTopwrapper").hide()
+    var testSlider3_height = $('.testSlider3').offset().top;
+    $(window).bind('scroll',function () {
+         var this_scrollowTop =$(this).scrollTop();
+        if(this_scrollowTop>testSlider3_height) {
+            $(".overfloatTopwrapper").show();
+        }
+        else
+        {
+             $(".overfloatTopwrapper").hide();
+        }
+    })
 });
 
 
