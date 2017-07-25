@@ -29,14 +29,17 @@ $(document).ready(function () {
 
      });
 
-        openMaskview();
+
      function openMaskview() {
           $('.search_maskview').animate({'top': 179 + 'px'}, 300, 'swing');
+          $('.downmaskview_close_font').animate({'height':'20%'}, 300, 'swing');
+
           $('body').addClass("html-body-overflow");
      }
      function  closeMaskView() {
          var height =$('.search_maskview').height();
          $('.search_maskview').animate({'top':height+'px'},300,'swing');
+          $('.downmaskview_close_font').animate({'height':'0%'},300, 'swing');
          $('body').removeClass("html-body-overflow");
      }
 

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="500e0ba4-f141-485d-aeb3-dd55d3c2d205" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/css/style.css" afterPath="$PROJECT_DIR$/yc-sunshine/web/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/html/index.html" afterPath="$PROJECT_DIR$/yc-sunshine/web/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js" afterPath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,23 +15,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yc-sunshine/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="792" column="1" lean-forward="true" selection-start-line="792" selection-start-column="1" selection-end-line="792" selection-end-column="1" />
+            <state relative-caret-position="169">
+              <caret line="751" column="14" lean-forward="true" selection-start-line="751" selection-start-column="14" selection-end-line="751" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="111">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <marker date="1500946494000" expanded="true" signature="2292:2367" ph="..." />
+                <marker date="1500947267000" expanded="true" signature="2430:2505" ph="..." />
               </folding>
             </state>
           </provider>
@@ -41,8 +40,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yc-sunshine/web/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="319" column="26" lean-forward="false" selection-start-line="319" selection-start-column="26" selection-end-line="319" selection-end-column="26" />
+            <state relative-caret-position="264">
+              <caret line="331" column="7" lean-forward="true" selection-start-line="331" selection-start-column="7" selection-end-line="331" selection-end-column="7" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -104,9 +103,9 @@
       <find>downmaskview_close</find>
       <find>searchIcon</find>
       <find>179</find>
-      <find>open</find>
       <find>search_maskview</find>
       <find>search_Input</find>
+      <find>open</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,8 +119,8 @@
         <option value="$PROJECT_DIR$/yc-sunshine/web/js/common/js/jquery.slider.js" />
         <option value="$PROJECT_DIR$/yc-sunshine/web/css/jquery.slider.css" />
         <option value="$PROJECT_DIR$/yc-sunshine/web/html/index.html" />
-        <option value="$PROJECT_DIR$/yc-sunshine/web/css/style.css" />
         <option value="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js" />
+        <option value="$PROJECT_DIR$/yc-sunshine/web/css/style.css" />
       </list>
     </option>
   </component>
@@ -467,18 +466,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js</url>
-          <line>202</line>
+          <line>205</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js</url>
-          <line>185</line>
+          <line>188</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js</url>
-          <line>38</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -554,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yc-sunshine/web/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="319" column="26" lean-forward="false" selection-start-line="319" selection-start-column="26" selection-end-line="319" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="331" column="7" lean-forward="true" selection-start-line="331" selection-start-column="7" selection-end-line="331" selection-end-column="7" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -577,21 +576,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="792" column="1" lean-forward="true" selection-start-line="792" selection-start-column="1" selection-end-line="792" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="111">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1500947267000" expanded="true" signature="2430:2505" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js">
+    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <marker date="1500946494000" expanded="true" signature="2292:2367" ph="..." />
-          </folding>
+        <state relative-caret-position="169">
+          <caret line="751" column="14" lean-forward="true" selection-start-line="751" selection-start-column="14" selection-end-line="751" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
