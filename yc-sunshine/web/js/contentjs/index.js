@@ -5,12 +5,46 @@
 
 $(document).ready(function () {
 
+
+
+    var maskviewPositonY =179;
     $('.loggoWrapper').click(function () {
         window.location.href='https://www.baidu.com'
     })
-    $('.searchIcon').click(function () {
-        window.location.href='https://www.baidu.com'
-    })
+    var  status = 0;
+     $('.searchIcon').click(function () {
+
+         status = status==0?1:0
+
+         switch (status) {
+             case 0:
+             {
+                 closeMaskView();
+             }
+                 break;
+             case 1:
+             {
+                openMaskview();
+             }
+                 break;
+             default:
+                 break
+         }
+
+     });
+
+        openMaskview();
+     function openMaskview() {
+         $('.search_maskview').animate({'margin-top': 0 + 'px'}, 300, 'swing');
+         $('body').addClass("html-body-overflow");
+     }
+     function  closeMaskView() {
+         var height =$('.search_maskview').height()-maskviewPositonY;
+         $('.search_maskview').animate({'margin-top':height+'px'},300,'swing');
+         $('body').removeClass("html-body-overflow");
+     }
+
+
 
     var animtionTime = 300;
     var menuanimateTime =150;
@@ -60,7 +94,25 @@ $(document).ready(function () {
 
 
 
-    //big nav
+    //关闭searchmarskview
+
+    $('.topwrapper').click(function () {
+        closeMaskView();
+    });
+    $('.widgetarea-head') .click(function () {
+        closeMaskView();
+    });
+    $('.navigation-wrap').click(function () {
+        closeMaskView();
+    })
+    $('.downmaskview').click(function () {
+        closeMaskView();
+    })
+
+
+
+
+
 
          //默认第一tab
     $('.float_menu-list').eq(0).css({'color':'#ff00ff'});
@@ -86,24 +138,24 @@ $(document).ready(function () {
     })
 
 
-    // $('.menu-list').click(function () {
-    //     index = $(this).index('.menu-list');
-    //     alert(index);
-    //     switch (index)
-    //     {
-    //         case NavItems.HOME:
-    //             break;
-    //         case NavItems.PRODUCTS:
-    //             break;
-    //         case NavItems.PASKNG:
-    //             break;
-    //         case NavItems.ABOUT:
-    //             break;
-    //         case NavItems.CONTACT:
-    //             break;
-    //         default:
-    //             break
-    // }})
+    $('.float_menu-list').click(function () {
+        index = $(this).index('.float_menu-list');
+        alert(index);
+        switch (index)
+        {
+            case NavItems.HOME:
+                break;
+            case NavItems.PRODUCTS:
+                break;
+            case NavItems.PASKNG:
+                break;
+            case NavItems.ABOUT:
+                break;
+            case NavItems.CONTACT:
+                break;
+            default:
+                break
+    }})
 
     //end bignav
 
@@ -183,7 +235,14 @@ $(document).ready(function () {
         {
              $(".overfloatTopwrapper").hide();
         }
-    })
+    });
+
+    
+
+
+
+
+
 });
 
 
