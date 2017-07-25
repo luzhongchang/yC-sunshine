@@ -1,4 +1,4 @@
-.product-categories
+.product_categories
 {
     width: 100%;
     height: auto;
@@ -9,21 +9,22 @@
     background: #ff00ff;
     overflow: hidden;
 }
-.product-categories_div
+.product_categories_div
 {
     width: 80%;
     height: 100%;
     margin: auto;
     background: #6ec1e4;
 }
-.product-categories_li
+.product_categories_li
 {
     float: left;
     height: 50px;
     margin-right: 20px;
 }
-.product-categories_li_font
+.product_categories_li_font
 {
+    clear: both;
     width: 100%;
     height: 10px;
     margin-top: 22px;
@@ -34,11 +35,113 @@
 
 }
 
-.product-categories_li_div
+.product_categories_li_div
 {
-    width: 100%;
+    width: 0%;
     height: 1px;
 
+    overflow: hidden;
     background: white;
 }
+.product_blank
+{
+    width: 100%;
+    height: 40px;
+    background: greenyellow;
+}
+
+.product_showArea_Big
+{
+    min-height: 500px;
+    height: auto;
+    width: 100%;
+    background: red;
+}
+
+@media(min-width: 768px) {
+.product_showArea
+{
+    width: 750px;
+}
+}
+@media(min-width: 992px) {
+.product_showArea
+{
+    width: 970px;
+}
+}
+
+@media (min-width: 1200px)  {
+.product_showArea
+{
+    width: 1170px;
+}
+}
+.product_showArea
+{
+    margin: auto;
+    height: 500px;
+    min-height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #007fff;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+.product_showArea_left
+{
+    width: 25%;
+}
+}
+@media(min-width: 992px) {
+.product_showArea_left
+{
+    width: 25%;
+}
+}
+
+@media (min-width: 1200px)  {
+.product_showArea_left
+{
+    width: 25%;
+}
+}
+.product_showArea_left
+{
+    height: 100%;
+    background: yellow;
+    width: 200px;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.product_showArea_right
+{
+    width: 100%;
+}
+}
+@media(min-width: 992px) {
+.product_showArea_right
+{
+    width: 100%;
+}
+}
+
+@media (min-width: 1200px)  {
+.product_showArea_right
+{
+    width: 100%;
+}
+}
+.product_showArea_right
+{
+    height: 100%;
+    background: lightgray;
+    /*width: 550px;*/
+
+}
+
+
+
 
