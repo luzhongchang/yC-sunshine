@@ -4,10 +4,6 @@
 
 
 $(document).ready(function () {
-
-
-
-    var maskviewPositonY =179;
     $('.loggoWrapper').click(function () {
         window.location.href='https://www.baidu.com'
     })
@@ -35,12 +31,12 @@ $(document).ready(function () {
 
         openMaskview();
      function openMaskview() {
-         $('.search_maskview').animate({'margin-top': 0 + 'px'}, 300, 'swing');
-         $('body').addClass("html-body-overflow");
+          $('.search_maskview').animate({'top': 179 + 'px'}, 300, 'swing');
+          $('body').addClass("html-body-overflow");
      }
      function  closeMaskView() {
-         var height =$('.search_maskview').height()-maskviewPositonY;
-         $('.search_maskview').animate({'margin-top':height+'px'},300,'swing');
+         var height =$('.search_maskview').height();
+         $('.search_maskview').animate({'top':height+'px'},300,'swing');
          $('body').removeClass("html-body-overflow");
      }
 
@@ -237,7 +233,7 @@ $(document).ready(function () {
         }
     });
 
-    
+
 
 
 

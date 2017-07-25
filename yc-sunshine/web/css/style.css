@@ -741,16 +741,21 @@ li
     font-size: 10px;
     border: 1px solid  rgba(168, 168, 168, 0.2);
 }
+
+/*弹出层*/
 .search_maskview
 {
     width: 100%;
     height: 100%;
     position: fixed;
+    left: 0;
+    top: 179px;
+    z-index: 1;
     background:rgba(0,0,0,0.8);
-    z-index: 300;
-    overflow: hidden;
+
 
 }
+
 
 .search_Input
 {
@@ -783,19 +788,19 @@ li
     width: 100%;
     height: 60%;
     margin: auto;
-    background: #dad55e;
-    /*overflow: hidden;*/
+
 
 }
 
 .downmaskview_close_font
 {
-
     font-size: 60px;
     width: 90%;
-    height: 20%;
-    background: #ff00ff;
-    bottom: 0px;
-    text-align: right;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 5%;
     line-height: 100px;
+    text-align: right;
+
 }
