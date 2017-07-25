@@ -76,6 +76,17 @@ li
 
 }
 
+.floatsearchIcon
+{
+    width: 32px;
+    height: 30px;
+    background-color: #003eff;
+    position:relative;
+    left: 100%;
+    top:50%;
+    margin-left: -32px;
+    margin-top: -15px;
+}
 .searchIcon
 {
     width: 32px;
@@ -752,8 +763,6 @@ li
     top: 100%;
     z-index: 1;
     background:rgba(0,0,0,0.8);
-
-
 }
 
 
