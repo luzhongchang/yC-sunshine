@@ -60,6 +60,7 @@ $(document).ready(function () {
 
 
      function openMaskview(from) {
+         $('.scrollowbutton').css({'opacity':''});
          var height = from=='float'?75:179
           $('.search_maskview').animate({'top': height + 'px'}, 300, 'swing');
           $('.downmaskview_close_font').animate({'height':'20%'}, 300, 'swing');
@@ -67,6 +68,8 @@ $(document).ready(function () {
           $('body').addClass("html-body-overflow");
      }
      function  closeMaskView() {
+
+         $('.scrollowbutton').alpha(1.0);
          var height =$('.search_maskview').height();
          $('.search_maskview').animate({'top':height+'px'},300,'swing');
           $('.downmaskview_close_font').animate({'height':'0%'},300, 'swing');
@@ -102,7 +105,7 @@ $(document).ready(function () {
     })
     $('.menu-list').click(function () {
         index = $(this).index('.menu-list');
-        alert(index);
+        closeMaskView();
         switch (index)
         {
             case NavItems.HOME:
@@ -253,19 +256,41 @@ $(document).ready(function () {
     )
 
        //显示navi
-    $(".overfloatTopwrapper").hide()
-    var testSlider3_height = $('.testSlider3').offset().top;
+    $(".overfloatTopwrapper").hide();
+    $('.scrollowbutton').hide();
+    var testSlider3_height = $(window).height();
     $(window).bind('scroll',function () {
          var this_scrollowTop =$(this).scrollTop();
         if(this_scrollowTop>testSlider3_height) {
             $(".overfloatTopwrapper").show();
+            $('.scrollowbutton').show();
         }
         else
         {
              $(".overfloatTopwrapper").hide();
+             $('.scrollowbutton').hide();
         }
     });
 
+    $('.scrollowbutton').click(function () {
+        $('html, body').animate({scrollTop: 0}, 'slow');
+    });
+
+    $('.scrollowbutton').hover(
+        function () {
+
+            // $(this).animate({'background-color': '#ff00ff'},3000,'swing')
+
+             $(this).css({'background-color': '#ff00ff','border': '1px solid rgba(0,0,0,0)'})
+        },
+        function () {
+
+             // $(this).animate({'background-color': '#ffffff'},3000,'swing')
+                 $('.scrollowbutton').css({'background-color': '#ffffff','border': '1px solid rgba(0,0,0,1)'})
+
+        }
+
+    );
 
 
 
