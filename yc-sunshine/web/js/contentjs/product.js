@@ -5,8 +5,6 @@ $(document).ready(function () {
 
 
 
-
-
      $('.product_categories_li').click(function () {
 
          alert('231')
@@ -107,5 +105,35 @@ $(document).ready(function () {
          $(this).css({'border': '1px solid #ccc'})
     });
 
-})
+
+
+    $('.product_intrduce_name').mouseenter(function () {
+
+        $(this).children('span').css({'border-bottom': '1px solid rgba(0, 0, 0, 0.8)'});
+    });
+     $('.product_intrduce_name').mouseleave(function () {
+        $(this).children('span').css({'border-bottom': '1px solid rgba(0, 0, 0, 0.1)'});
+    });
+
+    //  margin-right: 15px;
+    // margin-top: 15px ;
+
+
+    $('.product_intrduce').mouseenter(function () {
+
+         $(this).children('.product_intrduce_detialbutton').children('img').animate({'width':'30px','height':'30px','margin-left':'0px','margin-top':'0px'},300,'swing');
+    });
+    $('.product_intrduce').mouseleave(function () {
+         $(this).children('.product_intrduce_detialbutton').children('img').animate({'width':'0px','height':'0px','margin-left':'15px','margin-top':'15px'},300,'swing');
+    });
+     $(this).children('.product_intrduce_detialbutton').children('img').click(function () {
+
+     });
+
+
+
+    new  Function(selectItemMenu(1));
+
+
+});
 

@@ -3,12 +3,12 @@
  */
 
 
+
+
 $(document).ready(function () {
     $('.loggoWrapper').click(function () {
         window.location.href='https://www.baidu.com'
     })
-
-
 
 
    var  statusfloat = 0;
@@ -82,8 +82,14 @@ $(document).ready(function () {
     var menuanimateTime =150;
 
 
+    // function selectNavItemMenu(index) {
+    //     $('.menu-list').eq(index).css({'color':'#ff00ff'});
+    // }
+
+
+
+
         //默认第一tab
-    $('.menu-list').eq(0).css({'color':'#ff00ff'});
     $('.menu-list').mouseenter(function () {
         $(this).css({'color':'#ff00ff'});
         $('.menu-list').not($(this)).css({'color': 'rgba(0, 0, 0, 0.8)'});
@@ -143,11 +149,15 @@ $(document).ready(function () {
 
 
 
+    // function selectNavItem(index) {
+    //
+    //     $('.float_menu-list').eq(index).css({'color':'#ff00ff'});
+    // }
+    //
+    //      //默认第一tab
+    // selectNavItem(0);
 
 
-
-         //默认第一tab
-    $('.float_menu-list').eq(0).css({'color':'#ff00ff'});
     $('.float_menu-list').mouseenter(function () {
         $(this).css({'color':'#ff00ff'});
         $('.float_menu-list').not($(this)).css({'color': 'rgba(0, 0, 0, 0.8)'});
@@ -293,11 +303,13 @@ $(document).ready(function () {
     );
 
 
+    new  Function(selectItemMenu(0));
+
+
+
 
 
 });
-
-
 
 
 
