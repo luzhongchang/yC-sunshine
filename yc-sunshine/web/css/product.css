@@ -356,3 +356,25 @@
     margin-right: 5px;
 
 }
+.product_detail
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+    background:rgba(0,0,0,0.8);
+}
+.product_detial_contentdiv
+{
+    display: inline-block;
+    width: 950px;
+    height: 90%;
+    margin-top: 2%;
+
+    background: white;
+
+}
+
