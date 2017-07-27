@@ -69,7 +69,7 @@ $(document).ready(function () {
      }
      function  closeMaskView() {
 
-         $('.scrollowbutton').alpha(1.0);
+         $('.scrollowbutton').css({'opacity':'1.0'});
          var height =$('.search_maskview').height();
          $('.search_maskview').animate({'top':height+'px'},300,'swing');
           $('.downmaskview_close_font').animate({'height':'0%'},300, 'swing');

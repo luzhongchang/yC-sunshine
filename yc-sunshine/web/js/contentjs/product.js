@@ -130,6 +130,19 @@ $(document).ready(function () {
 
      });
 
+     $('.product_page_cluom').mouseenter(function () {
+
+         $(this).css({'border':'1px solid #B1B1B1'});
+     });
+     $('.product_page_cluom').mouseleave(function () {
+         $(this).css({'border':'0px solid #B1B1B1'});
+         $(this).css({'border-bottom': '1px solid #B1B1B1' });
+     });
+
+     $('.product_page_cluom').click(function () {
+         $(this).css({'background':'black','color':'white'})
+         $('.product_page_cluom').not($(this)).css({'background':'rgba(0,0,0,0)','color':'black'});
+     });
 
 
     new  Function(selectItemMenu(1));

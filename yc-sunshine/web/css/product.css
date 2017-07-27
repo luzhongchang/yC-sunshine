@@ -280,7 +280,7 @@
 .product_intrduce
 {
     width: 220px;
-    height: 313px;
+    height: 290px;
 
     float: left;
 }
@@ -323,4 +323,36 @@
     border:0px solid yellow;
     margin-left: 15px;
     margin-top: 15px;
+}
+
+.product_page
+{
+    clear: both;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.product_page_div
+{
+    margin-top: 7px;
+    height:34px;
+    display: inline-block;
+
+}
+
+.product_page_cluom
+{
+
+    width: 34px;
+    height:34px;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    color: black;
+    font-size: 16px;
+    border-bottom: 1px solid #B1B1B1;
+    margin-right: 5px;
+
 }
