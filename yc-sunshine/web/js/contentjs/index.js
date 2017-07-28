@@ -78,55 +78,45 @@ $(document).ready(function () {
 
 
 
-    var animtionTime = 300;
-    var menuanimateTime =150;
-
-
-    // function selectNavItemMenu(index) {
-    //     $('.menu-list').eq(index).css({'color':'#ff00ff'});
-    // }
 
 
 
 
-        //默认第一tab
-    $('.menu-list').mouseenter(function () {
-        $(this).css({'color':'#ff00ff'});
-        $('.menu-list').not($(this)).css({'color': 'rgba(0, 0, 0, 0.8)'});
-        index = $(this).index('.menu-list');
 
-        if(index == 1)
-        {
-            // $('.subMenu-dropdown').slideDown(500);
-            $('.subMenu-dropdown').fadeIn(animtionTime);
 
-        }
-        else
-        {
-            $('.subMenu-dropdown').fadeOut(animtionTime);
-        }
-    })
+        //默认第一ta
     $('.subMenu-dropdown').mouseleave(function () {
          $('.subMenu-dropdown').fadeOut(animtionTime);
     })
     $('.menu-list').click(function () {
         index = $(this).index('.menu-list');
         closeMaskView();
-        switch (index)
+        windowsHref(index)
+
+    });
+
+
+     function windowsHref(index) {
+          switch (index)
         {
             case NavItems.HOME:
+                window.location.href='index.html';
                 break;
             case NavItems.PRODUCTS:
+                window.location.href='product.html';
                 break;
             case NavItems.PASKNG:
+                window.location.href='packing.html';
                 break;
             case NavItems.ABOUT:
+                window.location.href='about.html';
                 break;
             case NavItems.CONTACT:
+                window.location.href='contact.html';
                 break;
             default:
                 break
-    }})
+    }}
 
 
 
@@ -145,63 +135,13 @@ $(document).ready(function () {
     })
     $('.downmaskview').click(function () {
         closeMaskView();
-    })
-
-
-
-    // function selectNavItem(index) {
-    //
-    //     $('.float_menu-list').eq(index).css({'color':'#ff00ff'});
-    // }
-    //
-    //      //默认第一tab
-    // selectNavItem(0);
-
-
-    $('.float_menu-list').mouseenter(function () {
-        $(this).css({'color':'#ff00ff'});
-        $('.float_menu-list').not($(this)).css({'color': 'rgba(0, 0, 0, 0.8)'});
-        index = $(this).index('.float_menu-list');
-
-        if(index == 1)
-        {
-            // $('.subMenu-dropdown').slideDown(500);
-            $('.float_subMenu-dropdown').fadeIn(animtionTime);
-
-        }
-        else
-        {
-            // $('.subMenu-dropdown').slideUp(500);
-            $('.float_subMenu-dropdown').fadeOut(animtionTime);
-        }
     });
-     $('.float_subMenu-dropdown').mouseleave(function () {
-         $('.float_subMenu-dropdown').fadeOut(animtionTime);
-    })
 
 
     $('.float_menu-list').click(function () {
         index = $(this).index('.float_menu-list');
-        alert(index);
-        switch (index)
-        {
-            case NavItems.HOME:
-                break;
-            case NavItems.PRODUCTS:
-                break;
-            case NavItems.PASKNG:
-                break;
-            case NavItems.ABOUT:
-                break;
-            case NavItems.CONTACT:
-                break;
-            default:
-                break
-    }})
-
-    //end bignav
-
-
+        windowsHref(index);
+    });
 
     $(".sub-menu li").mouseenter(function () {
         $(".sub-menu li").css({'color':'#ff00ff'});
@@ -288,15 +228,10 @@ $(document).ready(function () {
 
     $('.scrollowbutton').hover(
         function () {
-
-            // $(this).animate({'background-color': '#ff00ff'},3000,'swing')
-
              $(this).css({'background-color': '#ff00ff','border': '1px solid rgba(0,0,0,0)'})
         },
         function () {
-
-             // $(this).animate({'background-color': '#ffffff'},3000,'swing')
-                 $('.scrollowbutton').css({'background-color': '#ffffff','border': '1px solid rgba(0,0,0,1)'})
+            $('.scrollowbutton').css({'background-color': '#ffffff','border': '1px solid rgba(0,0,0,1)'})
 
         }
 
@@ -304,6 +239,7 @@ $(document).ready(function () {
 
 
     new  Function(selectItemMenu(0));
+    new  Function(navMenuitemandDefault(0));
 
 
 

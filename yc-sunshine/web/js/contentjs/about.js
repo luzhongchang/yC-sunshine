@@ -16,6 +16,7 @@ $(document).ready(function () {
     });
 
 
-    new Function(selectItemMenu(3));
+    new  Function(selectItemMenu(3));
+    new  Function(navMenuitemandDefault(3));
 
 });

@@ -146,6 +146,7 @@ $(document).ready(function () {
 
 
     new  Function(selectItemMenu(1));
+    new  Function(navMenuitemandDefault(1));
 
 
 });
