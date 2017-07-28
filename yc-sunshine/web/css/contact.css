@@ -1,0 +1,76 @@
+.packing-main-page-wrapper
+{
+
+    height:86px ;
+    width: 100%;
+    background: #ff00ff;
+}
+
+@media (min-width: 768px) {
+    .packing-page-title{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .packing-page-title
+    {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .packing-page-title
+    {
+        width: 1170px;
+    }
+}
+.packing-page-title
+{
+    width: 90%;
+    min-width: 765px;
+    margin: auto;
+    line-height: 86px;
+    height: 86px;
+}
+.packing-title
+{
+    float: left;
+    font-size: 36px;
+    color: white;
+}
+.packing-Home
+{
+    color: white;
+    font-size: 10px;
+    float: right;
+
+}
+.packing-blank
+{
+    width: 100%;
+    height: 30px;
+}
+.companyoption
+{
+    border-bottom: 1px solid lightgrey ;
+    padding-bottom: 30px;
+}
+
+.about-sendmessage
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    min-height: 352px;
+    background: #f9f9f9;
+
+}
+.contactUsContact_s_labout
+{
+    width: 60%;
+    margin: auto;
+
+
+}
+#sendbutton {
+    background: #61ce70;
+}
