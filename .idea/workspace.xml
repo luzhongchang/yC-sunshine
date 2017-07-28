@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="500e0ba4-f141-485d-aeb3-dd55d3c2d205" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/js/config/config.js" afterPath="$PROJECT_DIR$/yc-sunshine/web/js/config/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/about.js" afterPath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/contact.js" afterPath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/contact.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js" afterPath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/packing.js" afterPath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/packing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/product.js" afterPath="$PROJECT_DIR$/yc-sunshine/web/js/contentjs/product.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +44,11 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="118" column="6" lean-forward="false" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+            <state relative-caret-position="128">
+              <caret line="215" column="31" lean-forward="false" selection-start-line="215" selection-start-column="31" selection-end-line="215" selection-end-column="31" />
               <folding>
                 <element signature="e#690#1034#0" expanded="false" />
-                <marker date="1501209192000" expanded="true" signature="2803:2878" ph="..." />
+                <marker date="1501210114000" expanded="true" signature="2803:2878" ph="..." />
               </folding>
             </state>
           </provider>
@@ -82,8 +77,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yc-sunshine/web/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="210" column="2" lean-forward="false" selection-start-line="210" selection-start-column="2" selection-end-line="263" selection-end-column="10" />
+            <state relative-caret-position="223">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -163,12 +158,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>search_Input</find>
       <find>searchicon</find>
       <find>.hover</find>
       <find>animate</find>
       <find>swi</find>
-      <find>bin</find>
       <find>search</find>
       <find>searchi</find>
       <find>open</find>
@@ -193,6 +186,8 @@
       <find>company_description</find>
       <find>contactUsContact</find>
       <find>close</find>
+      <find>bin</find>
+      <find>overfloatTopwrapper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -920,6 +915,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yc-sunshine/web/html/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -933,20 +938,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yc-sunshine/web/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="210" column="2" lean-forward="false" selection-start-line="210" selection-start-column="2" selection-end-line="263" selection-end-column="10" />
+        <state relative-caret-position="223">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -970,11 +965,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yc-sunshine/web/js/contentjs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="118" column="6" lean-forward="false" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+        <state relative-caret-position="128">
+          <caret line="215" column="31" lean-forward="false" selection-start-line="215" selection-start-column="31" selection-end-line="215" selection-end-column="31" />
           <folding>
             <element signature="e#690#1034#0" expanded="false" />
-            <marker date="1501209192000" expanded="true" signature="2803:2878" ph="..." />
+            <marker date="1501210114000" expanded="true" signature="2803:2878" ph="..." />
           </folding>
         </state>
       </provider>

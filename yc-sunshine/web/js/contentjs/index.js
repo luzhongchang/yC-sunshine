@@ -211,13 +211,25 @@ $(document).ready(function () {
     var testSlider3_height = $(window).height();
     $(window).bind('scroll',function () {
          var this_scrollowTop =$(this).scrollTop();
+
+
+         if(this_scrollowTop>190)
+         {
+
+             $(".overfloatTopwrapper").show();
+         }
+         else
+         {
+            $(".overfloatTopwrapper").hide();
+         }
+
+
         if(this_scrollowTop>testSlider3_height) {
-            $(".overfloatTopwrapper").show();
+
             $('.scrollowbutton').show();
         }
         else
         {
-             $(".overfloatTopwrapper").hide();
              $('.scrollowbutton').hide();
         }
     });
