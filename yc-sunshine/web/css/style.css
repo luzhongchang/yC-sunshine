@@ -638,11 +638,13 @@ li
     width: 80%;
     margin: auto;
     background: greenyellow;
+    align-items: center;
+
 }
 
 .footersep
 {
-    width: 270px;
+    width: 230px;
     height: 152px;
     padding-top: 100px;
     float: left;
